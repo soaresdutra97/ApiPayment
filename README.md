@@ -8,7 +8,7 @@ This API is a part of an BFF (Back-End for Front-End) system made by me using Ja
 Technologies: Spring Boot, JPA, Feign Client, PostgreSQL, Swagger, Spring Security with JWT, Kafka and JUnit + Mockito tests.
 
 This BFF Contains: 
-A communication with 2 others APis (BFF API, Products API) using Feign Client.
+A communication with 2 others APis [BFF API](https://github.com/soaresdutra97/loja-virtual-bff), [Product API](https://github.com/soaresdutra97/ApiProducts) using Feign Client.
 This API has a Payment method returning a Boolean, if the credit card ends with 8080.
 
 ## Table of Contents
