@@ -30,7 +30,7 @@ BFF API - This contains a communication with API Products and Payment API - It r
 git clone https://github.com/soaresdutra97/loja-virtual-bff.git
 ```
 
-Products API - This contains the CRUD of Products - It runs in port 8383
+Products API - This contains the CRUD of Products - It runs in port 8181
 
 ```bash
 git clone https://github.com/soaresdutra97/ApiProducts.git
