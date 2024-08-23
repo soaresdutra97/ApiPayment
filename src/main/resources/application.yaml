@@ -1,0 +1,24 @@
+#PERFIL COM CONFIGURAÇÕES PARA RODAR LOCAL:
+
+#NÃO ESQUECER DE ACRESCENTAR NO VM OPTIONS:
+# -Dspring.profiles.active=dev
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+server:
+  port: 8383
+
+---
+
+#PERFIL COM CONFIGURAÇÕES PARA O DOCKER-COMPOSE:
+
+spring:
+  config:
+    activate:
+      on-profile: docker
+
+server:
+  port: 8080
